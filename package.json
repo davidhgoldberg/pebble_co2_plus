@@ -1,0 +1,38 @@
+{
+    "author": "Kunveni",
+    "dependencies": {},
+    "keywords": [],
+    "name": "co2-plus",
+    "pebble": {
+        "capabilities": [
+            "configurable"
+        ],
+        "displayName": "CO2 Plus",
+        "enableMultiJS": false,
+        "messageKeys": {
+            "KEY_DATE_MODE": 2,
+            "KEY_READING": 0,
+            "KEY_READING_1YR": 1
+        },
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "file": "images/bg_CO2_3.png",
+                    "name": "IMAGE_BACKGROUND_CO2",
+                    "type": "bitmap"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "aplite",
+            "basalt"
+        ],
+        "uuid": "5757c9d7-25da-481f-ad95-a43eab24540b",
+        "watchapp": {
+            "watchface": true
+        }
+    },
+    "version": "1.3.0"
+}
